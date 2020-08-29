@@ -1,0 +1,86 @@
+*{
+  font-family: 'Bangers', cursive;
+  align-items: center;
+  text-align: center;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+
+button {
+  font-size: large;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 10px;
+  margin: auto;
+  padding: 0.5vw;
+}
+
+.theme2{
+  color: aliceblue;
+  text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+
+.row1 {
+  float: left;
+}
+
+.row2 {
+  float: left;
+}
+
+
+.row3 {
+  float: left;
+}
+
+
+img {
+  border: 0.5vw solid black;  
+  display: block;
+  height: 25vw;
+  width: 25vw;
+  max-height: 1.4in;
+  max-width: 1.4in;
+}
+img.left {
+  border-left: 0;
+}
+
+img.right {
+  border-right: 0;
+}
+
+img.bottom {
+  border-bottom: 0;
+}
+
+img.top{
+  border-top: 0;
+}
